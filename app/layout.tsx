@@ -1,4 +1,5 @@
 import "./globals.css";
+import Header from "@/components/Header/Header";
 
 export default function RootLayout({
   children,
@@ -8,19 +9,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header>
-          <div>LOGO</div>
-          <nav>
-            <ul>
-              <li>
-                <a href="">Pagrindinis</a>
-                <a href="">Paslaugos</a>
-                <a href="">Darbų pavyzdžiai</a>
-                <a href="">Kontaktai</a>
-              </li>
-            </ul>
-          </nav>
-        </header>
+        <Header />
         {children}
       </body>
     </html>
