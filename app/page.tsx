@@ -1,6 +1,7 @@
 "use client";
 
 // import { useEffect, useState } from "react";
+import Image from "next/image";
 import styles from "./page.module.css";
 import Slider from "../components/Slider/Slider";
 
@@ -39,7 +40,16 @@ export default function Home() {
           Pasirūpinkite savo namų grožiu jau šiandien! Susisiekite su mumis ir
           sužinokite daugiau apie mūsų paslaugas.
         </p>
-        <button className={styles.button}>Susisiekime</button>
+        <div className={styles.button}>
+          <Image
+            src="/images/phone-icon.png"
+            alt="Plovimo Meistrai Logo"
+            width={25}
+            height={25}
+            priority
+          />
+          <span>Susisiekime</span>
+        </div>
       </div>
       <Slider></Slider>
       {/* {loading ? (

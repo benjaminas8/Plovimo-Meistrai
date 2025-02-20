@@ -8,6 +8,13 @@
   max-width: 600px;
   border-radius: 10px;
   margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 768px) {
+  .slider {
+    margin: 0;
+  }
 }
 
 .imageWrapper {
