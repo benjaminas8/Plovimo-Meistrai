@@ -1,0 +1,39 @@
+.introduction {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+.servicesHeader {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.servicesWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.serviceCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 400px;
+  border: 4px #03527d solid;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*Mobile*/
+@media (max-width: 600px) {
+  .servicesWrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .serviceCard {
+    width: 300px;
+  }
+}

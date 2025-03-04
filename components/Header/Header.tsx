@@ -10,8 +10,8 @@ const Header = () => {
           <Image
             src="/images/logo.png"
             alt="Plovimo Meistrai Logo"
-            width={150}
-            height={150}
+            width={300}
+            height={300}
             priority
           />
         </Link>

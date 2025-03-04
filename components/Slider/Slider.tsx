@@ -32,7 +32,7 @@ export default function Slider() {
           src={images[currentIndex]}
           alt="Cleaning service"
           fill
-          sizes="(max-width: 600px) 100vw, 600px"
+          sizes="(max-width: 1000px) 100vw, 1000px"
           style={{ objectFit: "cover" }}
           priority
         />
