@@ -10,8 +10,8 @@ const Header = () => {
           <Image
             src="/images/logo.png"
             alt="Plovimo Meistrai Logo"
-            width={300}
-            height={300}
+            width={150}
+            height={150}
             priority
           />
         </Link>
@@ -27,11 +27,11 @@ const Header = () => {
             Paslaugos
           </Link>
 
-          <Link className={styles.li} href="/examples">
+          {/* <Link className={styles.li} href="/examples">
             Darbų pavyzdžiai
-          </Link>
+          </Link> */}
 
-          <Link className={styles.li} href="/contact">
+          <Link className={styles.li} href="/contacts">
             Kontaktai
           </Link>
         </ul>

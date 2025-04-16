@@ -1,5 +1,11 @@
 .main {
-  margin: 2rem;
+  background: rgb(3, 82, 125);
+  background: radial-gradient(
+    circle,
+    rgba(3, 82, 125, 1) 0%,
+    rgba(3, 110, 125, 1) 100%
+  );
+  padding: 2rem;
   display: flex;
   gap: 1rem;
   flex-direction: row;
@@ -21,12 +27,29 @@
 }
 
 .Introduction {
-  font-size: larger;
   flex: 1;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   max-width: 600px;
+}
+
+.IntroductionH1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.IntroductionP {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.IntroductionList {
+  font-size: 1.5rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
 /*Mobile*/
