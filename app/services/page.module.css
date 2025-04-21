@@ -5,6 +5,7 @@
     rgba(3, 82, 125, 1) 0%,
     rgba(3, 110, 125, 1) 100%
   );
+  padding: 4rem 0;
 }
 
 .introduction {
@@ -15,10 +16,9 @@
   gap: 1rem;
 }
 .servicesHeader {
-  padding-top: 4rem;
+  margin-top: 0;
   color: white;
   text-align: center;
-  margin: 4rem 0;
 }
 
 .servicesWrapper {

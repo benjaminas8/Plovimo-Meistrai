@@ -19,11 +19,11 @@ const Header = () => {
 
       <nav className={styles.nav}>
         <ul className={styles.ul}>
-          <Link className={styles.li} href="/">
+          <Link className={styles.headerLink} href="/">
             Pagrindinis
           </Link>
 
-          <Link className={styles.li} href="/services">
+          <Link className={styles.headerLink} href="/services">
             Paslaugos
           </Link>
 
@@ -31,7 +31,7 @@ const Header = () => {
             Darbų pavyzdžiai
           </Link> */}
 
-          <Link className={styles.li} href="/contacts">
+          <Link className={styles.headerLink} href="/contacts">
             Kontaktai
           </Link>
         </ul>

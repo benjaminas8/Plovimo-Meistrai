@@ -7,6 +7,7 @@ import Slider from "../components/Slider/Slider";
 import "@fontsource/rubik";
 import "@fontsource/rubik/500.css";
 import "@fontsource/rubik/700.css";
+import Link from "next/link";
 
 const facadeImages = [
   "/images/cleaning1.jpeg",
@@ -26,7 +27,6 @@ export default function Home() {
             paslaugos.
           </p>
         </div>
-
         <p className={styles.IntroductionList}>
           <span>
             <strong>Svarbiausia:</strong>
@@ -36,21 +36,23 @@ export default function Home() {
           <span>✅ Saugios medžiagos</span>
           <span>✅ Nepriekaištingas rezultatas</span>
         </p>
-
         <p className={styles.IntroductionP}>
           <strong>Susisiekite su mumis</strong> ir užsisakykite paslaugas jau
           šiandien!
-        </p>
-        <div className={styles.button}>
-          <Image
-            src="/images/phone-icon.png"
-            alt="Plovimo Meistrai Logo"
-            width={25}
-            height={25}
-            priority
-          />
-          <span>Susisiekime</span>
-        </div>
+        </p>{" "}
+        <Link href="/contacts">
+          {" "}
+          <div className={styles.button}>
+            <Image
+              src="/images/phone-icon.png"
+              alt="Plovimo Meistrai Logo"
+              width={25}
+              height={25}
+              priority
+            />
+            <span>Susisiekime</span>
+          </div>
+        </Link>
       </div>
       <Slider images={facadeImages} />
       {}
