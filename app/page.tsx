@@ -45,7 +45,7 @@ export default function Home() {
           <div className={styles.button}>
             <Image
               src="/images/phone-icon.png"
-              alt="Plovimo Meistrai Logo"
+              alt="Plovimo Meistrai"
               width={25}
               height={25}
               priority

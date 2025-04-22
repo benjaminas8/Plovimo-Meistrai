@@ -12,7 +12,7 @@ const Footer = () => {
           <Link href="/">
             <Image
               src="/images/logopng.png"
-              alt="Plovimo Meistrai Logo"
+              alt="Plovimo Meistrai"
               width={80}
               height={80}
               priority

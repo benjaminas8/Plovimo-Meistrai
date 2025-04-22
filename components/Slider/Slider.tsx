@@ -33,7 +33,7 @@ export default function Slider({ images }: SliderProps) {
       <div className={styles.imageWrapper}>
         <Image
           src={images[currentIndex]}
-          alt="Cleaning service"
+          alt="Plovimo paslaugos visoje Lietuvoje"
           fill
           sizes="(max-width: 1000px) 100vw, 1000px"
           style={{
