@@ -40,7 +40,7 @@ export default function Home() {
           <strong>Susisiekite su mumis</strong> ir užsisakykite paslaugas jau
           šiandien!
         </p>{" "}
-        <Link href="/contacts">
+        <Link className={styles.buttonLink} href="/contacts">
           {" "}
           <div className={styles.button}>
             <Image
