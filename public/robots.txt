@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://plovimomeistrai.lt
+
+# Sitemaps
+Sitemap: https://plovimomeistrai.lt/sitemap.xml
+Sitemap: https://plovimomeistrai.lt/server-sitemap.xml
