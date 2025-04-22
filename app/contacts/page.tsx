@@ -50,13 +50,11 @@ export default function ContactsPage() {
         </div>
         <div className={styles.contactCard}>
           <h3>El. paštas</h3>
-          <a href="plovimomeistrai@gmail.com" className={styles.contactLink}>
-            plovimomeistrai@gmail.com
-          </a>
+          <p className={styles.contactText}>plovimomeistrai@gmail.com</p>
         </div>
         <div className={styles.contactCard}>
           <h3>Adresas</h3>
-          <p>Vilnius, Lietuva</p>
+          <p className={styles.contactText}>Vilnius, Lietuva</p>
         </div>
       </div>
       <div className={styles.formWrapper}>

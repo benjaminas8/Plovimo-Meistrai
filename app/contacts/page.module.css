@@ -52,9 +52,15 @@
   font-weight: bold;
   text-decoration: none;
   transition: color 0.2s;
+  padding: 1rem 0;
 }
 .contactLink:hover {
   color: #0396a6;
+}
+
+.contactText {
+  margin: 0;
+  padding: 1rem 0;
 }
 
 .formWrapper {
