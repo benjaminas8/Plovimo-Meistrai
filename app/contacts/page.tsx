@@ -2,6 +2,18 @@
 import { useState } from "react";
 import styles from "./page.module.css";
 
+export function generateMetadata() {
+  return {
+    title: "Susisiekite - Plovimo Meistrai",
+    description:
+      "Susisiekite su mumis dėl trinkelių, stogų, ar fasadų valymo paslaugų Vilniuje.",
+    openGraph: {
+      title: "Susisiekite su mumis - Plovimo Meistrai",
+      description: "Susisiekite su mumis dėl profesionalių valymo paslaugų",
+    },
+  };
+}
+
 export default function ContactsPage() {
   const [status, setStatus] = useState("");
 
