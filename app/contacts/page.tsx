@@ -35,8 +35,8 @@ export default function ContactsPage() {
           <p className={styles.contactText}>plovimomeistrai@gmail.com</p>
         </div>
         <div className={styles.contactCard}>
-          <h3>Adresas</h3>
-          <p className={styles.contactText}>Vilnius, Lietuva</p>
+          <h3>Dirbame</h3>
+          <p className={styles.contactText}>Visoje Lietuvoje</p>
         </div>
       </div>
       <div className={styles.formWrapper}>

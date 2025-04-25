@@ -9,7 +9,7 @@
 .footerContent {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -52,7 +52,7 @@
 .contactInfo {
   display: flex;
   flex-direction: column;
-  gap: 0.3rem;
+  gap: 1rem;
   align-items: flex-end;
 }
 

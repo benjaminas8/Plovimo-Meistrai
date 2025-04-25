@@ -43,7 +43,7 @@ const Footer = () => {
           >
             plovimomeistrai@gmail.com
           </a>
-          <span className={styles.address}>Vilnius, Lietuva</span>
+          <span className={styles.address}>Dirbame visoje Lietuvoje</span>
         </div>
       </div>
     </footer>

@@ -11,20 +11,24 @@ export function generateMetadata() {
 }
 
 const facadeImages = [
-  "/images/cleaning1.jpeg",
-  "/images/cleaning2.jpeg",
-  "/images/cleaning3.jpeg",
+  "/images/cleaning1.jpg",
+  "/images/cleaning2.jpg",
+  "/images/cleaning3.jpg",
+  "/images/cleaning4.jpg",
+  "/images/cleaning5.jpg",
+  "/images/cleaning6.jpg",
+  "/images/cleaning7.jpg",
+  "/images/cleaning8.jpg",
 ];
 const pavingImages = [
-  "/images/paving1.png",
+  "/images/paving1.jpg",
   "/images/paving2.jpeg",
   "/images/paving3.jpg",
+  "/images/paving4.jpeg",
+  "/images/paving5.jpeg",
+  "/images/paving6.jpeg",
 ];
-const roofImages = [
-  "/images/roof1.jpeg",
-  "/images/roof2.jpg",
-  "/images/roof3.jpg",
-];
+const roofImages = ["/images/roof1.jpg", "/images/roof2.jpeg"];
 
 export default function ServicesPage() {
   return (

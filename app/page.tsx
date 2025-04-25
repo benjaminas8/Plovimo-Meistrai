@@ -10,9 +10,9 @@ import "@fontsource/rubik/700.css";
 import Link from "next/link";
 
 const facadeImages = [
-  "/images/cleaning1.jpeg",
-  "/images/cleaning2.jpeg",
-  "/images/cleaning3.jpeg",
+  "/images/paving5.jpeg",
+  "/images/cleaning1.jpg",
+  "/images/paving4.jpeg",
 ];
 
 export default function Home() {
