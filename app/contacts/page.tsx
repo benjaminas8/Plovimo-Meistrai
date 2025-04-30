@@ -15,7 +15,8 @@ export default function ContactsPage() {
             "@context": "https://schema.org",
             "@type": "ContactPage",
             name: "Plovimo Meistrai - Kontaktai",
-            description: "Susisiekite su mumis dėl profesionalių valymo paslaugų. Nemokamai įvertinsime darbų apimtis ir pateiksime pasiūlymą.",
+            description:
+              "Susisiekite su mumis dėl profesionalių valymo paslaugų. Nemokamai įvertinsime darbų apimtis ir pateiksime pasiūlymą.",
             url: "https://plovimomeistrai.lt/contacts",
             mainEntity: {
               "@type": "Organization",
@@ -24,7 +25,7 @@ export default function ContactsPage() {
               email: "plovimomeistrai@gmail.com",
               areaServed: {
                 "@type": "Country",
-                name: "Lietuva"
+                name: "Lietuva",
               },
               contactPoint: {
                 "@type": "ContactPoint",
@@ -32,25 +33,30 @@ export default function ContactsPage() {
                 email: "plovimomeistrai@gmail.com",
                 contactType: "customer service",
                 areaServed: "LT",
-                availableLanguage: ["lt", "en", "ru"]
-              }
-            }
-          })
+                availableLanguage: ["lt", "en", "ru"],
+              },
+            },
+          }),
         }}
       />
       <main className={styles.main}>
         <div className={styles.introduction}>
           <h1 className={styles.contactsHeader}>Susisiekite su mumis</h1>
           <p itemProp="description">
-            Susisiekite su mumis dėl paslaugų užsakymo ar nemokamos konsultacijos.
-            Atsakysime į visus Jūsų klausimus ir pateiksime geriausią sprendimą.
+            Susisiekite su mumis dėl paslaugų užsakymo ar nemokamos
+            konsultacijos. Atsakysime į visus Jūsų klausimus ir pateiksime
+            geriausią sprendimą.
           </p>
         </div>
-        <div className={styles.contactsWrapper} itemScope itemType="https://schema.org/Organization">
+        <div
+          className={styles.contactsWrapper}
+          itemScope
+          itemType="https://schema.org/Organization"
+        >
           <div className={styles.contactCard}>
             <h3>Telefonas</h3>
-            <a 
-              href="tel:+37067797443" 
+            <a
+              href="tel:+37067797443"
               className={styles.contactLink}
               itemProp="telephone"
               title="Paskambinti"
@@ -61,7 +67,7 @@ export default function ContactsPage() {
           </div>
           <div className={styles.contactCard}>
             <h3>El. paštas</h3>
-            <a 
+            <a
               href="mailto:plovimomeistrai@gmail.com"
               className={styles.contactText}
               itemProp="email"
@@ -73,10 +79,7 @@ export default function ContactsPage() {
           </div>
           <div className={styles.contactCard}>
             <h3>Dirbame</h3>
-            <p 
-              className={styles.contactText}
-              itemProp="areaServed"
-            >
+            <p className={styles.contactText} itemProp="areaServed">
               Visoje Lietuvoje
             </p>
           </div>
